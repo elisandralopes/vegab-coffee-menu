@@ -8,14 +8,10 @@ Vegan cafeteria menu
   Elys' Vegan Cafe é um menu digital simples de uma cafeteria vegana. <br/>
 </p>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
-
 <br>
 
 <p align="center">
-  <img alt="cafe-menu" src=".github/preview.jpg" width="100%">
+  <img alt="cafe-menu" src="[.github/preview.jpg](https://raw.githubusercontent.com/elisandralopes/vegan-coffee-menu/main/preview.png)" width="100%">
 </p>
 
 ## 🚀 Tecnologias
