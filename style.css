@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./background3.jpg);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: 'Zeyada', 'Roboto', sans-serif;
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 1px;
+  color: rgb(145, 34, 34);
+}
+
+h1:hover {
+  color: rgb(173, 47, 47);
+}
+
+#coffee-icon {
+  margin-bottom: 2px;
+}
+h2 {
+  font-size: 2em;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+span { 
+  font-size: 1em;
+}
+
+.menu {
+  width: 80%;
+  background-color: #deb887;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  max-width: 500px;
+
+  /*transiçao para a mudança do tamanho de tela*/
+  transition: all 0.3s ease-in-out;
+}
+
+.menu:hover {
+  box-shadow: #00000069 0px 40px 64px;
+  transform: translateY(-8px);
+  border-radius: 15px;
+  filter: brightness(1.02);
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.content {
+  margin-bottom: 3%;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+span.flavor, span.price, span.dessert {
+  font-size: 2em;
+}
+
+.dots {
+  width: 100%;
+  border-bottom: 3px dotted black;
+}
+
+img {
+  width: 8%;
+  height: 8%;
+  margin-right: 12px;
+  
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin: 8px 0;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+.item span {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+}
+
+.price {
+  text-align: right;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 0.9em;
+}
+
+.social {
+  margin-bottom: 7px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons img {
+  width: 25px;
+  height: 25px;
+}
+
+.icons img:hover {
+  opacity: 0.8;
+  /* border: 1px solid brown; */
+  box-shadow: 0px 0px 10px rgba(231, 107, 107, 0.5);
+  transform: scale(1.1);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+
+/* Desktop style */
+@media only screen and (min-width: 980px) {
+  .menu {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px;
+    max-width: 600px;
+  }
+  
+}
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .menu {
+    font-size: 16px;
+  }
+  .category {
+    width: 100%;
+    text-align: center;
+  }
+  .item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dots {
+    border: none;
+  }
+}
